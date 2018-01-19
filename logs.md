@@ -2,9 +2,7 @@
 
 ## 2018-01-19
 
-### 02
-
-After-meeting notes:
+### 02 After-meeting notes
 
 So, the basic idea is to choose some small existing games and make controllers for them, mostly with a focus on mechanical extensions for existing hardware (mouse, keyboards, joypads, etc).
 
@@ -21,9 +19,7 @@ We also agreed on meeting next week for discussing the first developments on the
 
 ~meeting
 
-### 01
-
-Pre-meeting ideas & talking points:
+### 01 Pre-meeting ideas & talking points
 
 - Choice of tech: JS (tools, libraries, the game itself) sounds like a better choice. I want to move away from using Unity as soon as possible.
 - Project style: could it be a tool? A game? A generic alt controller? Hacking + homebrewing?
