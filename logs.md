@@ -2,6 +2,12 @@
 
 ## 2018-01-19
 
+### 03 Consent from creators
+
+After talking to Carol about the project idea, she raised the point of asking creators permission to create controllers on top of their games. I agree that that's a good idea, so I'll also start preparing a short description of what it is that I'm doing in this project to send to creators before start working on the prototypes. Also, I'll start by asking my friend Pedro Paiva if I can create a controller for one of his games (maybe Mario Empalado or Carrocracia).
+
+~ethics
+
 ### 02 After-meeting notes
 
 So, the basic idea is to choose some small existing games and make controllers for them, mostly with a focus on mechanical extensions for existing hardware (mouse, keyboards, joypads, etc).
