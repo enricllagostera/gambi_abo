@@ -4,7 +4,11 @@
 
 ### 03 Consent from creators
 
+<<<<<<< HEAD
 After talking to Carol about the project idea, she raised the point of asking creators permission to create controllers on top of their games. I agree that that's a good idea, so I'll also start preparing a short description of what it is that I'm doing in this project to send to creators before start working on the prototypes. Also, I'll start by asking my friend Pedro Paiva if I can create a controller for one of his games (maybe Mario Empalado or Carrocracia). I guess this is also a good point to talk with Pippin.
+=======
+After talking to Carol about the project idea, she raised the point of asking creators permission to create controllers on top of their games. I agree that that's a good idea, so I'll also start preparing a short description of what it is that I'm doing in this project to send to creators before start working on the prototypes. Also, I'll start by asking my friend Pedro Paiva if I can create a controller for one of his games (maybe Mario Empalado or Carrocracia).
+>>>>>>> 005c0ab00fcec8d61746544f4fa9af83f3e50dfb
 
 ~ethics
 
