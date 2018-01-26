@@ -1,5 +1,31 @@
 # Logs
 
+## 2018-01-26
+
+### 04 First prototyping session
+
+Fist, I should note that this Wednesday I had a Skype call with Pedro Paiva and he agreed on me making a controller for [Carrocalipse](https://pedro-paiva.itch.io/carrocalipse). I'll also be sending him materials of the prototypes and tests. From this, I started thinking about ways to turn the 4-direction and 2 action buttons into a car-like interface that would be sort of unusable for the Sokoban-Frogger gameplay. I believe it serves as a commentary within the world of the game: cars ruled the world, and now a car is playing (or being used to play) a game about surviving without cars. ~ethics
+
+I worked today on creating a first version of the controller. I focused mostly on the wheel, due to its complexity, as I have good ideas for how the up-down as throttle pedals or handles and the character changing as a gear shift. I'll work on these during next week.
+
+![Initial axis test](images\2018-01-26\20180126_130534.jpg)
+
+![Creation mess](images\2018-01-26\mess.png)
+
+There was a lot of back and forth in relation with how to translate the movement from a rotation to a vertical translation. I found an interesting way that is somewhat simple to assemble, but it will entail in keeping the axis parallel to the keyboard. The rotation axis will also need to have some slots for up-down free movement.  ~wheel
+
+![Mechanims](images\2018-01-26\mechanism.png)
+
+There was also a lot of testing with using rubber bands and other ways of joining pieces, as well as the possibilities of metal wires. It worked pretty well for this, as it didn't need to resist that much stress and was quick to rearrange and mold. I used quite a few pieces of cardboard to make 2D tests and basis for drawing and figuring out movements to try to implement in the keyboard device.
+
+![Drawings](images\2018-01-26\20180126_155115.jpg)
+
+I considered the possibility of starting to use more elaborate electronics, but I've talked with Pippin and I'm leaning more towards the more mechanical focus. Keeping the electronic pieces intact works well. The cardboard contraption enveloping and extending the keyboard looks really nice and also connects well in relation with the Nintendo Labo "neatness" in fitting the JoyCon into the toys.
+
+Another important aspect that I'm thinking for future design experiments is the sturdiness of the materials for the controller. I'll probably have to start experimenting with ways to make cardboard more resistant in a simple and DIY way. I'll do more research on that during the week.
+
+As for documentation, we have tested tagging Pippin to notify about commits and notes, it seems to work alright. I've also taken some pictures of the setup, the prototype, and the work environment. I'm thinking that in future sessions it'd be good to do some form of cycle of annotations (at every X minutes / intervals, maybe?) and also making some more photo annotations to explain the details of the prototype. As soon as it's more usable, I'll also make some short videos. ~documentation ~meta
+
 ## 2018-01-19
 
 ### 03 Consent from creators
