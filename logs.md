@@ -1,10 +1,50 @@
 # Logs
 
+## 2018-02-06
+
+### 05 Second prototyping session
+
+After a busy week with other projects, I started thinking about how to improve the first prototype. A major issue was the lack of structure, of a way to make it more sturdy so that the movable parts would work reliably. To solve that, I've thought of using a shoebox as the enveloping structure. This way, I can pass some bars / axis within the box to hold parallel walls together and make more sturdy supports for the inner parts (see sketch below). ~materials ~shoebox It's intriguing to think how one structural choice supported the whole design work from this on.
+
+![](images/shoebox-sketch-01-assets/shoebox-sketch-01.png)
+
+![](images/2018-02-06/IMG_0050.JPG)
+
+While working on the axis support, I noticed that using hot glue as a temporary material is quite good. It has some give, it's not completely rigid, but can be enough for small forces. Also, it made me think about how much each material "talks back" and the interplay between them. For instance, using rubber bands as tensioners to avoid in/out movement in the main axis or using cardboard holes as channels.
+
+![](images/2018-02-06/IMG_0053.JPG)
+
+After a while, I decided to change from a rotating axis to a simplified swing. This decision was derived from playtesting, in which the wheel moved too much upwards, losing touch of the keys. By suggestion of the playtester (Ben), I added an extra dowel with a rubber band as tensioner to avoid undesired vertical movement. This gave the whole steering wheel much more stability and a nice resistance.
+
+![](images/2018-02-06/IMG_0060.JPG)
+
+The forward-backward controls are pedals, which were relatively quick to make, as I had already learned a bit about reinforcing the cardboard with tape and using extra pieces to stabilize movement.
+
+![](images/2018-02-06/IMG_0063.JPG)
+
+At the end of the session, the present prototype looks quite well finished and works ok with the game. It still lacks the action key (`Enter`) and changing key (`X`). I'll include these in the next work session.
+
+![](images/2018-02-06/IMG_0065.JPG)
+
+![](images/2018-02-06/IMG_0068.JPG)
+
+#### Next steps
+
+In this project I need to start preparing the documentation, so that the controller can be created by others. This is an important design process that I can definitely use later on my thesis, as I'm constantly concerned about circulation and access of alternative controllers.
+
+A front in this is working out the last improvements I want to make in this design. My goals in that will be to simplify the materials, avoid as much as possible using hot glue or dowels, and find ways to make the project sturdier using mostly normal glue and tape. This also implies in making diagrams and step-by-step building manuals, which I'm considering making via annotated photographs. A question that I want to raise is how to make these look inviting and approachable, not as slick ready-made products. This is key to accessibility and also as this documentation could be used to support modding and workshops.  ~documentation ~graphic_design ~accessibility
+
+An important next step is to decide on a new prompt for the next prototype, as discussed with Pippin. I'm interested in both approaches delineated below, so I'll try to think of ideas on both to pick for next prototype. ~design_prompt
+
+**Prompt 1.** Work with an existing explicitly political game (one that would never make it past Nintendo's platform criteria of entry) and make a controller for it. The difference from the previous work would be that the focus of the controller would be to explore different metaphors than those in the game in ways that give more agency to the device or that radically alter (and ideally build and extend) the current play experience. That would mean change goals, mechanics, gameplay strategies in ways that lead to a stronger distancing from the game.
+
+**Prompt 2.** Similarly to prompt 1, but I would on a work that is not explicitly political in its purpose. The goal of the controller making would be to subvert and make tangible a political argument through this game. This prompt would be relevant in thinking how to connect political alt controls with modding in political ways, which is a question I'd like to work on during the thesis. ~modding
+
 ## 2018-01-26
 
 ### 04 First prototyping session
 
-Fist, I should note that this Wednesday I had a Skype call with Pedro Paiva and he agreed on me making a controller for [Carrocalipse](https://pedro-paiva.itch.io/carrocalipse). I'll also be sending him materials of the prototypes and tests. From this, I started thinking about ways to turn the 4-direction and 2 action buttons into a car-like interface that would be sort of unusable for the Sokoban-Frogger gameplay. I believe it serves as a commentary within the world of the game: cars ruled the world, and now a car is playing (or being used to play) a game about surviving without cars. ~ethics
+First, I should note that this Wednesday I had a Skype call with Pedro Paiva and he agreed on me making a controller for [Carrocalipse](https://pedro-paiva.itch.io/carrocalipse). ~ethics I'll also be sending him materials of the prototypes and tests. From this, I started thinking about ways to turn the 4-direction and 2 action buttons into a car-like interface that would be sort of unusable for the Sokoban-Frogger gameplay. I believe it serves as a commentary within the world of the game: cars ruled the world, and now a car is playing (or being used to play) a game about surviving without cars.
 
 I worked today on creating a first version of the controller. I focused mostly on the wheel, due to its complexity, as I have good ideas for how the up-down as throttle pedals or handles and the character changing as a gear shift. I'll work on these during next week.
 
