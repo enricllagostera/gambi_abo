@@ -1,5 +1,25 @@
 # Logs
 
+## 2018-02-13
+
+### 06 Cardboard research
+
+After a weekend with fever and sick in bed, I managed to do some more work on finishing up and improving the Carrocalipse controller design. I researched about cardboard designs, both in terms of construction techniques and how to communicate the building of a specific object.
+
+First, I found a variety of ways to joint surfaces (glue, notches, string, duct tape, plastic screws) and read some more about painting and finishing corrugated surfaces. These will be very helpful when coming up with more polished versions of controllers, but also should be considered from a perspective of ease of use and prior knowledge requirements. I prepared a reference board with some images from this research showing techniques and ideas I might use for future builds.  ~cardboard
+
+// include ref board images later (at home pc)
+
+Secondly, I also took notes on how Instructables and other websites structure their guides. They mostly use a manual-like **step-by-step** progression (which is very loosely applied in terms of consistent size / complexity of steps) with a big emphasis on photos. A major feature is the importance of **photo annotation**, with a simple tagging and hovering system built-in in the website. I also noted that the more professionalized or power-user the author, the more we see the use of Sketchup and other software for layouts and imagery. I'm considering following this system of acommunication more than the clean IKEA manual style or a LEGO like system like Nintendo chose for the Labo. I believe it's more approachable to extend and change as well as cheaper and flexible to produce.
+
+#### Labo-like initiatives
+
+While researching, I also found out about [make.do](http://make.do). This construction system for cardboard, while a very interesting junction of safety, technology and well-diagrammed presentation, shares similarities with the way Labo was presented by Nintendo. Both focus on safety, creativity rhetoric, a very sanitized version of creating things. In both the feeling of disorder is downplayed and very polished results are centered. There are also no failures, which is of course understandable from a perspective of marketing efforts. This presentation also makes me think how much they fit into Sutton-Smith's rhetoric of power with regards to children play (1997, ch. 11). They are threaded with rhetorics of power and progression (via contemporary values of creativity and skill-building in this case) enforced by adults, who hide whatever is seen as negative, irrational, and ultimately dangerous in children's play. I think this can be an interesting point to come back to when thinking about political subversion of Labo. ~rhetoric ~subversion ~cardboard
+
+#### Materials and re-use
+
+I've been thinking about the question of how the objects I choose to re-use shape the controller ideas I have. This is motivated by how well the shoebox worked as a basis for experimentation and, I believe, as an invitation (it's familiar / approachable). So, I'm considering experimenting with water bottles, milk cartons and other household recyclable materials for the next iterations. Let's see! ~recycling
+
 ## 2018-02-06
 
 ### 05 Second prototyping session
