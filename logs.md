@@ -1,5 +1,35 @@
 # Logs
 
+## 2018-02-24
+
+### 07 Cardboard mining
+
+I've been thinking about the next game + controller project lately. I've decided to focus on creating a controller about abstract labor / work that turns the in-game labor into a very concrete activity. This would be done by resisting the pace of the game via the physical constraints of the controller. Thematically, I started thinking about taking a game like [Universal Paperclips](http://www.decisionproblem.com/paperclips/index2.html), but I think its central topic is more about AI and abstraction and less about work. After some reflection, I think a good topic would be commenting on cryptocurrency fetish as a narrative that elevates automation and value to an abstracted form. Also, there are a few games that take on Bitcoin mining as a topic and I think they would lend themselves well to creating mechanical controllers.
+
+#### Example games
+
+Here's a list of a few games I was trying out to use in this project.
+
+- [Downbit](https://5mixer.itch.io/downbit): It's more of a fun example, but it doesn't have the explicit bitcoin metaphor which I think would make the controller's concept clearer. It would require a mouse + click functionality, which would not be too difficult to make with a cardboard plane (pizza box) + some weights (rocks).
+
+- [Code clicker](https://oldmancharles.itch.io/code-clicker): It's a more "active" game, it requires a lot of clicking and feels even more pointless than Downbit. It's much less "refined" in terms of visual polish and feedback and it uses some game design conventions of classic Flash games (the completist inventory and raising prices). This would be a good fit for the game overall, as it doesn't have a very explicit stance on cryptocurrencies and that would be proposed more by the use of the controller itself.
+
+- [Bitcoin Mining Simulator](https://brodiemongon.itch.io/bitcoin-mining-simulator): It's an ASCII based game that uses keyboard for input, so it would fit less with the idea of using the mouse. At the same time, it's the game with a clearer satirical stance, with a "take over the world" metaphor for the "get rich with less effort" entrepreneurial discourse of cryptocurrencies. I'm tempted to try to make a casing for the keyboard that would allow the player to press only the number keys, enter and backspace using a (fake) pickaxe. It could also use the mining sieve controller or maybe a pickaxe for hitting the number keys (more details below).
+
+- [Bitcoin digger](https://hubix9.itch.io/bitcoin-digger): It's another very classic idle game. I like the starkness of it, but there are a few bugs and the game is really slow. It would be difficult for players to "get" the game in a shorter play session.
+
+#### Controller mechanisms
+
+For the mouse-based controller ideas, I'm thinking of using a mining sieve metaphor, with a pizza box lid as a plane holding rocks. With this mining sieve, the player would slide the plane over a fixed upside-down mouse to move the cursor and press against it to force the left-click to happen. So, players would very literally be bitcoin mining.
+
+As for keyboard based games, a pickaxe would be used to hit labelled sticks that are pointing out from a shoebox (and touching the appropriate keys), filling up the commands and actions to be performed. It's a very simple idea, but depending on how heavy  and clunky I can make the pickaxe, i think it could work well.
+
+I also like using the mining sieve and pickaxe metaphors for the controllers because they tap on a similar narrative and metaphor that the cryptocurrency creators themselves use to situate, explain and popularize their technology. By calling it "mining" they tap into the symbolic lure of gold-rush-like instant wealth and its gambling characteristic. I'd like to make that more explicit in the controller, play with the humour aspect of it too.
+
+#### Next steps
+
+I'll start prototyping the mouse-based controller with the Code Clicker game, to see how well it will work. I'll also keep researching to see if i can find a game that is a better fit (cryptocurrency theme + critique + mouse-based input), I might be able to find a better example than what I have so far.
+
 ## 2018-02-13
 
 ### 06 Cardboard research
@@ -8,7 +38,7 @@ After a weekend with fever and sick in bed, I managed to do some more work on fi
 
 First, I found a variety of ways to joint surfaces (glue, notches, string, duct tape, plastic screws) and read some more about painting and finishing corrugated surfaces. These will be very helpful when coming up with more polished versions of controllers, but also should be considered from a perspective of ease of use and prior knowledge requirements. I prepared a reference board with some images from this research showing techniques and ideas I might use for future builds.  ~cardboard
 
-// include ref board images later (at home pc)
+![](images/cardboard.png)
 
 Secondly, I also took notes on how Instructables and other websites structure their guides. They mostly use a manual-like **step-by-step** progression (which is very loosely applied in terms of consistent size / complexity of steps) with a big emphasis on photos. A major feature is the importance of **photo annotation**, with a simple tagging and hovering system built-in in the website. I also noted that the more professionalized or power-user the author, the more we see the use of Sketchup and other software for layouts and imagery. I'm considering following this system of acommunication more than the clean IKEA manual style or a LEGO like system like Nintendo chose for the Labo. I believe it's more approachable to extend and change as well as cheaper and flexible to produce.
 
