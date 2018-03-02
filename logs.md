@@ -1,5 +1,34 @@
 # Logs
 
+## 2018-03-02
+
+### 08 3rd Prototyping session
+
+#### Prep and planning
+
+- Research pizza box schematics for mining sieve piece.
+- Sketch the mouse-based mining sieve controller.
+- Build first version.
+- Test, review and correct.
+
+The basic concept for the controller consists of two parts. Part one is a pizza-box-like
+
+I researched some pizza box patents and schematics. I found an [interesting one](https://patents.google.com/patent/US5961035A/en?q=pizza&q=box&oq=pizza+box) with a good fold-and-cut diagram, as well as an interesting looking pentagonal shape. I made a small construction paper model, with a modification to remove the lid and keep it just the open bottom part.
+
+![](images/2018-03-02/20180302_103131.jpg)
+
+![](images/2018-03-02/20180302_105155.jpg)
+
+![](images/2018-03-02/20180302_105350.jpg)
+
+*Up: Simple double lip & sleeve modification to remove the box lid.*
+
+![](images/2018-03-02/20180302_105651.jpg)
+
+It's a glue-less build and it would be easy to create documentation, as it builds on an existing diagram. I like the idea of it being a patent rip-off and modification too, as this is a big question relating to how Nintendo will manage its own cardboard diagrams and toy ecosystem (especially the digital part).
+
+The small scale model looks quite ok, but it's too small and flimsy to actually playtest the controller. Before I make the larger scale sieve, I'm going to prototype the mouse-holder base. It needs to be able to hold the mouse in position while exposing the laser sensor for navigation and having some play for clicking by pressing over the upside-down mouse.
+
 ## 2018-02-24
 
 ### 07 Cardboard mining
