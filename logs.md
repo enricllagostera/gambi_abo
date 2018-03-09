@@ -1,5 +1,18 @@
 # Logs
 
+## 2018-03-09
+
+### 09 4th Prototyping session
+
+Today I built the larger mining sieve.
+
+- large mining sieve
+  - better lip-sleeve mechanisms
+  - printing the cut and fold diagram in many letter-sized sheets of paper
+  - tests with duct tape for reinforcement (both of the lips and of the side connections)
+- rocks + weight testing
+- improve the mouse station (duct tape)
+
 ## 2018-03-02
 
 ### 08 3rd Prototyping session
