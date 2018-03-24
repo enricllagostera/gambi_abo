@@ -1,5 +1,17 @@
 # Logs
 
+## 2018-03-23
+
+During this last week, I've been writing the project website and the instructions for building the mining sieve controller. I'm almost done with the written instructions and I have the draft a bit more advanced. I'll work on diagrams and photos on Monday. I'm aiming to post them on Monday or Tuesday.
+
+The process took longer than I expected because I got caught up on templating and webdesign, which really is not a big priority. In a tangent, a part of it was the fact that I ended up learning much about EJS templating and a workflow for creating static websites using NodeJS, which is a tech stack that I've been using for a while. I had been looking for ways to generate static sites, because I like using them to document projects and also to organize educational materials and info. Also, I found out that it integrates with GitHub in a quick and easy way to use. I believe that drifting into this was actually quite productive, as it will really help in the documentation of other projects, such as my Reflective Game Design game and future thesis work.
+
+I've also been thinking about how to evaluate if the instruction materials are good. An idea I have is to send to few friends who do alt ctrl work and try to get feedback on how to improve it.
+
+Another aspect that I did some work during these last work sessions was on deciding which license to use for the project. I want to use either a public domain or copyleft license, but I've been checking on the different terms and I'm a bit divided on which to pick. GPL is not really suited to things outside from code and BSD or MIT licenses allow for commercial work in ways that I worry could potentially result in closed-up versions of the controller. Also I'm not necessarily against commercial uses of the designs, as long as they are also accessible to others for free. So, I'm inclined right now to use a Creative Commons license with just a Share-Alike restriction, which would keep the derivative design still accessible to others to re-create and use.
+
+
+
 ## 2018-03-09
 
 ### 09 4th Prototyping session
