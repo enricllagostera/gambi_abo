@@ -1,0 +1,18 @@
+<div class="footer row">
+  <div class="col">
+    <h2 class="footer-title">All tags</h2>
+    <div class="footer-tagcloud">
+    <%- tagcloud(site.tags, {
+      min_font: 1,
+      max_font: 1,
+      unit: "em",
+      show_count: true,
+      transform: function(name) { return "#" + name; }
+    }); %>
+    </div>
+  </div>
+  <div class="col">
+    <h2 class="footer-title">more info</h2>
+    <p class="footer-license"><%= config.footer_text %></p>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<section id="intro">
+  <div class="main-description">
+    <p><%= config.description %></p>
+    <p>created by <a href="<%= config.author_url %>"><%= config.author %></a>.</p>
+  </div>
+  <div class="controllers-showcase row">
+    <% site.data.controllers.forEach(function (project) { %>
+        <%- partial( "_partial/project", project ) %>
+    <% }); %>
+  </div>
+</section>

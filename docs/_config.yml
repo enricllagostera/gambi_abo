@@ -4,18 +4,19 @@
 
 # Site
 title: gambi_abo
-subtitle: DIY game controllers with no strings attached.
-description: DIY game controllers with no strings attached.
+subtitle: "DIY game controllers with no strings attached."
+description: "do-it-yourself game controllers with no strings attached. ok, maybe one or two."
 author: Enric Llagostera
+author_url: http://enric.llagostera.com.br
 language: en
 timezone: America/Montreal
 rss: atom.xml
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://enricllagostera.github.io/indi-2018w/
-root: /indi-2018w/
-permalink: :year/:month/:day/:title/
+url: https://enricllagostera.github.io/gambi_abo/
+root: /gambi_abo/
+permalink: :year-:month-:day-:title/
 permalink_defaults:
 
 # Directory
@@ -35,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -73,16 +74,25 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus
-theme_config:
-  colorscheme: light
-  nav:
-    Home: /
-    About: /about/
-  social_links:
+theme: basic
+show_banner: false
+banner_url: /imgs/read-my-hand.png
+show_nav: false
+title_color: "#d00"
+footer_text: "Made in Hexo by Enric Llagostera."
+nav:
+  - about:
+    title: "About me"
+    path: /about/
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/enricllagostera/indi-2018w.git
+  repo: https://github.com/enricllagostera/gambi_abo.git
+
+# RSS feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 10

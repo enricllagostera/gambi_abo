@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,900|Open+Sans:400,400i,700,700i');
+
+/* general */
+
+body {
+  color: #333;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+}
+
+h1, h2, h3 {
+  color: #ff3300;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4em;
+  margin-left: -5px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #000;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* index/home */
+
+.controllers-showcase-item {
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+}
+
+.controllers-showcase-item img {
+  width: 100%;
+  border: 5px solid #ffffcc;
+}
+
+
+/* page */
+
+.page p, .page h1, .page h2, .page h3, .page img {
+  max-width: 34em;
+}
+
+.page-main img {
+  max-width: 100%;
+}
+
+
+/* page-intro */
+
+.page-intro h1 {
+  font-size: 2.5em;
+  color:black;
+}
+
+.page-intro-date {
+  font-style: italic;
+  margin: 1em 0 2em 0;
+  font-size: 16px;
+}
+
+
+/* top */
+.top nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top nav ul li {
+  display: inline-block;
+}
+
+
+/* footer */
+
+.footer {
+  font-size: 14px;
+  text-align: left;
+  margin-top:2em;
+}

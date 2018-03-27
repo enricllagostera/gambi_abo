@@ -1,0 +1,14 @@
+[
+    {
+       "name":"GambiCon01",
+       "url":"imgs/sieve.gif",
+       "desc":"Drive your way through the future post-car dystopia.",
+       "title_color": "#00FF33"
+    },
+    {
+       "name":"GambiCon02",
+       "url":"imgs/sieve.gif",
+       "desc":"Mine Bitcoin and exercise at the same time!",
+       "title_color": "#3300FF"
+    }
+]

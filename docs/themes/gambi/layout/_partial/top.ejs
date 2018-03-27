@@ -1,0 +1,11 @@
+<div class="top">
+  <h1><%= config.title %></h1>
+  <nav>
+    <ul>
+      <li><a href="<%= config.root %>"> home </a></li>
+    <% site.pages.forEach( function(page) { %>
+      <li> . <a href="<%- url_for(page.path) %>"> <%= page.title %> </a></li>
+    <% }); %>
+    </ul>
+  </nav>
+</div>
