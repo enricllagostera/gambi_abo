@@ -135,5 +135,3 @@ Here are the steps in case you're building the mining sieve from the [diagram](m
   ![Add the rocks. Note the duct tape reinforcement on the sides.](rocks.jpg)
 
 7. Add the rocks!
-
-You're ready to play.
