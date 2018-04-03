@@ -1,5 +1,63 @@
 # Logs
 
+## 2018-04-03 Choice of 3rd game
+
+### Prompt & initial design constraints
+
+Ok, so the prompt I had settled on was to work the 3rd GambiCon from a gamepad. From the start some of the basics of the idea were to:
+
+- Move away from using hand and finger movements in general. This woulkd also apply to the grip and holding of the controller, so I'd focus on connecting different body parts to the gamepad grip, play around with the shapes left-over from its hand ergonomics. An effect I'm interested in is in the amplification in scale of the fine movements of thumbs.
+
+  ![Initial placement idea](images/2018-04-03/gamepad01.jpg)
+
+- Remove part of the multi-modal and simultaneous inputs used in gamepad-focused control schemes in games. I believe it would be interesting when trying to subvert or expand on an existing game.
+
+### Inspiration games
+
+When looking for games to make this controller for, I thought of first-person games. Both because there is quite a variety of them, but also because they are a very charged genre, very disputed. A few of the games I'm considering right now are:
+
+- [North](https://outlands.itch.io/north). Arm gestures as the inadequacy of passing in a new country, and the subdued experience of walking while migrant.
+
+- [Proteus](https://twistedtree.itch.io/proteus)
+Turn the exploration of the island into a dance of strings and arm movements. Prob not super political, though.
+
+- Any military fps, basically. The point is that I would remove access to any shooting / action buttons. Just move and run and try to survive as long as possible. In a sense it would be a controller custom-made for making "pacifist runs" in these games: a pacifist controller?
+
+- [CS:GO](http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/). Another variation of that would be to make the controller specifically for [surfing in CS:GO](https://youtu.be/sf8o2GdSDio?t=126) ([another example](https://youtu.be/-0orkZ3gMfQ?t=25)). It would be about a DIY practice extending another, one that already has a certain subversion of combat movements into choreography that is interesting in itself.
+
+### Accessibility and gamepads
+
+A point to consider while I'm thinking of modding and extending gamepads is how this relates to work done by the accessibility modding community and assistive technologies (both in terms of professional and [DIY designs](http://www.instructables.com/member/shadowwynd/)) in general. Many designs and DIY guides exist to help customize gamepads to make them usable by folks with different disabilities. Here is an example [guide](http://www.oneswitch.org.uk/art.php?id=76) about changing thumbstick strength for accessible alternatives. I want to be very conscious, as I experiment with different gamepad attachments and extensions, to not make the different relationship of the controller with the body be the only transformation at play or to make that difference from convention be the main point of the game. Accessible controllers and extensions are a huge topic and I worry that my controller might come off as downplaying their importance or appropriating their designs in offensive and ableist ways. This is an important point that I'll certainly come back to.  ~accessibility
+
+### Extending thumbsticks
+
+Here's an overview of today's experiments:
+
+1. Attaching string directly to the thumbstick, so that players could pull to move. However, the  (with thickness of string and angles would hinder arm movement.
+2. Then, I tried extending the stick with wire structures that I can attach the string to. By making the string connection indirect, the angles of movement became better, but it became a very fragile structure.
+
+  ![string attachement](images/2018-04-03/gamepad03.jpg)
+
+  Some structures ended up being better, especially for 1D movement, which is quite ok for forward / backwards control in a FPS game. I don't need necessarily to support strafing, after all.
+
+  ![1D attachment](images/2018-04-03/gamepad04.jpg)
+
+3. Then, I experimented with cardboard as a material for connecting the string to the thumbstick, in the shape of a bread-bag-closing-piece. Good results overall. It would work better with a very dense cardboard, to make the hole punching and setup easier. It also doesn't improve much the arm movement angle issue. As soon as I have a clearer picture of what game I'll work on, than I might revisit this system.
+
+  ![cardboard attachement](images/2018-04-03/gamepad05.jpg)
+
+4. By this point, I could see 1D movement working quite well. However, I also wanted to have some 2D movement options. I did some tests using string-only harnesses, both with many threads or single threaded. knotted. They worked well in terms of fine movement and resistance, but they could be a bit tricky to setup. Also, the number of threads / strings didn't matter much, so the simpler the better.
+
+  ![string harness 1](images/2018-04-03/gamepad06.jpg)
+
+  ![string harness 2](images/2018-04-03/gamepad07.jpg)
+
+5. Finally, I tested a longer piece of cardboard as an attachment to the thumbstick. That was quite easy to secure and provided good and fine-tuned 1D movement. Might be one of the sturdiest alternatives so far.
+
+  ![cardboard strip](images/2018-04-03/gamepad08.jpg)
+
+All these experiments involved fixing the controller somewhere. The neck position was ok for playing, but annoying for testing. I'm also considering other arrangements, like using a stand to fix the gamepad in place.
+
 ## 2018-03-23
 
 During this last week, I've been writing the project website and the instructions for building the mining sieve controller. I'm almost done with the written instructions and I have the draft a bit more advanced. I'll work on diagrams and photos on Monday. I'm aiming to post them on Monday or Tuesday.
