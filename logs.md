@@ -1,5 +1,26 @@
 # Logs
 
+## 2018-04-07
+
+### Chindōgu
+
+Andrea Peña told me about Chindōgu, a similar term as *gambiarra* but coming from Japan. It has a slightly different meaning, as it is meant as a form of satire and critique of usefulness, while gambiarra is usually connected to utility and necessity in a more direct way. After some research, I found some more info about the concept and it seems it was formulated by an artist-inventor called [Kenji Kawakami](https://www.amazon.com/101-Unuseless-Japanese-Inventions-Chindogu/dp/0393313697). Besides creating and promoting the concept in books and pieces of work, he mantains a website with a [10 tenets of Chindōgu](http://www.chindogu.com/?page_id=336) manifesto. It is really interesting and worth a read (as summarized by [this website](http://mentalfloss.com/article/61842/chindogu-art-unuseless)):
+
+1. *A Chindōgu Cannot be for Real Use* — They must be, from a practical point of view, useless.
+2. *A Chindōgu Must Exist* — A Chindōgu must be something that you can actually hold, even if you aren’t going to use it.
+3. *There must be the Spirit of Anarchy in Every Chindōgu* — Chindōgu inventions represent the freedom to be (almost) useless and challenge the historical need for usefulness.
+4. *Chindōgu Tools are for Everyday Life* — Chindōgu must be useful (or useless) to everyone around the world for everyday life.
+5. *Chindōgu are Not for Sale* — Chindōgu cannot be sold, as this would go against the spirit of the art form.
+6. *Humor is Not the Sole Reason for Creating a Chindōgu* — Even if Chindōgu are inherently quirky and hilarious, the main reason they are created is for problem solving.
+7. *Chindōgu are Not Propaganda* — Chindōgu are, however, innocent and made with good intentions. They should only be created to be used (or not used).
+8. *Chindōgu are Never Taboo* — Chindōgu must adhere to society’s basic standards.
+9. *Chindōgu Cannot be Patented* — Chindōgu cannot be copyrighted or patented, and are made to be shared with the rest of the world.
+10. *Chindōgu Are Without Prejudice* — Everyone should have an equal chance to enjoy every Chindōgu.
+
+I find it really interesting how this relates to toys and playful objects (such as game controllers). Chindōgu seems to sit firmly within the realm of play as frivolous, as just the sot of object a jester would wear and use to annoy a noble court, while also claiming an ambiguous utility. They seem disruptive and a great materialized comment on material cultural, the work objects do, and playfulness.
+
+Also interesting to see the emphasis on accessibility and freedom of circulation: access is necessary, re-creation is open, they should have "good intentions" and fit into society to an extent, while critiquing it. I think my position with alternative controllers is very similar in many aspects, and my worry with the Nintendo Labo sort of stems from a similar place than Kawakami's manifesto. How to keep the subversive potential of alternative controllers and their push against efficiency and transparency (the equivalents of usefulness)?
+
 ## 2018-04-06
 
 ### CS:GO surfing test
