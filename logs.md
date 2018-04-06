@@ -1,12 +1,51 @@
 # Logs
 
+## 2018-04-06
+
+### CS:GO surfing test
+
+I downloaded CS:GO and some surfing maps. They were fun and interesting to play. It is a difficult play mode, as it feels very counterintuitive. I'm getting more skeptical that I can build a controller extension that enables it without any electronic customization, the fluidity depends a lot of settings and very subtle movements alternated with quick ones.
+
+Also, I stumbled into a very tangible barrier: I hade a very strong nausea after playing around 15 minutes of the game mode. All the falling and fast first-person perspective got me. I'm thinking I won't be able to continue this design direction.
+
+### Cardboard research
+
+As a part of the research on how to extend the thumbstick movements of the joystick, I'm looking into mechanical possibilities of cardboard. Some interesting things are cardboard hinges using hardware like nuts, bolts and washers. They are not as accessible as plain cardboard and duct tape, but are still quite cheap and easy to find and re-adapt.
+
+![Example of cardboard system as inspiration](http://iridescentlearning.org/wp-content/uploads/2013/01/robotarm-shorter.gif)
+
+### GambiCon01 improvements
+
+While researching some hinges, I stumbled upon an interesting design for an axis, using two pieces of cardboard on a cross position. This seems like a better arrangement for the GambiCon01 driving wheel, so I'm looking at making a new version of it that is better to document and can be made with a clearer design. Also, removing dowels as much as possible.
+
+![](images/2018-04-06/gambico01_redesign_20180406_01.jpg)
+
+![](images/2018-04-06/gambico01_redesign_20180406_02.jpg)
+
+![](images/2018-04-06/gambico01_redesign_20180406_03.jpg)
+
+## 2018-04-05
+
+### CS Surfing research
+
+- A couple of videos on surfing: [1](https://youtu.be/0wHbVWoKoIs), [2](https://youtu.be/8_PzCot7Sj0).
+
+According to this, this is an artifact of the physics in the game (specifically the Source engine). It was discovered by players who then created custom maps to explore these bugs. It might also be as something that originated on Quake and other older shooters.
+
+Important factors for surfing play. [Here is a how-to with a few tips](http://crosshairgenerator.com/how-to/how-to-surf-in-counter-strike/):
+
+1. Crosshair placement (usually the mouse cursor)
+2. Strafing "against" the angled surface (A & D keys)
+
+Both are mostly thumbstick related movement in a gamepad.
+
 ## 2018-04-03 Choice of 3rd game
 
 ### Prompt & initial design constraints
 
 Ok, so the prompt I had settled on was to work the 3rd GambiCon from a gamepad. From the start some of the basics of the idea were to:
 
-- Move away from using hand and finger movements in general. This woulkd also apply to the grip and holding of the controller, so I'd focus on connecting different body parts to the gamepad grip, play around with the shapes left-over from its hand ergonomics. An effect I'm interested in is in the amplification in scale of the fine movements of thumbs.
+- Move away from using hand and finger movements in general. This would also apply to the grip and holding of the controller, so I'd focus on connecting different body parts to the gamepad grip, play around with the shapes left-over from its hand ergonomics. An effect I'm interested in is in the amplification in scale of the fine movements of thumbs.
 
   ![Initial placement idea](images/2018-04-03/gamepad01.jpg)
 
