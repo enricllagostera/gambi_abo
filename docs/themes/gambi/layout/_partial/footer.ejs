@@ -1,3 +1,23 @@
-<footer class="footer row">
-    <p>CC0 open license.</p>
-</footer>
+<div class="footer row">
+  <div class="col">
+    <h2 class="footer-title">Tags</h2>
+    <div class="footer-tagcloud">
+    <%- tagcloud(site.tags, {
+      min_font: 1,
+      max_font: 1,
+      unit: "em",
+      show_count: true,
+      transform: function(name) { return "#" + name; }
+    }); %>
+    </div>
+  </div>
+  <div class="col">
+    <h2 class="footer-title">More info</h2>
+    <div class="footer-license"><%- markdown(config.footer_text); %></div>
+    <% if (config.show_search) { %>
+    <div class="row">
+      <%- search_form({button:"search", text: "search..."}) %>
+    </div>
+    <% } %>
+  </div>
+</div>

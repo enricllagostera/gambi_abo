@@ -1,11 +1,35 @@
-<div class="top">
-  <h1><%= config.title %></h1>
-  <nav>
-    <ul>
-      <li><a href="<%= config.root %>"> home </a></li>
-    <% site.pages.forEach( function(page) { %>
-      <li> . <a href="<%- url_for(page.path) %>"> <%= page.title %> </a></li>
-    <% }); %>
-    </ul>
-  </nav>
+<div class="top" id="top">
+  <div class="row" >
+    <% if (config.show_banner) { %>
+    <div class="top-banner-area col">
+      <a href="<%- config.root %>"><img src="<%- url_for(config.banner_url) %>" alt="" class="top-banner"></a>
+    </div>
+    <% } %>
+    <div class="col top-title-area">
+
+      <div class="row">
+        <h1 class="top-title col" ><a href="<%- config.root %>"><%= config.title %></a></h1>
+      </div>
+
+      <% if (config.show_nav) {%>
+      <nav class="top-nav row">
+        <ul>
+          <li><a href="<%- config.root %>">Home</a></li>
+          <% if (config.nav != null) { %>
+          <% config.nav.forEach(function(content) { %>
+          <li> / <a href="<%- url_for(content.path) %>"><%= content.title %></a></li>
+          <% }); %>
+          <!-- TODO: add feed link
+          <li><a href="<%- config.root %>">Feed</a></li> -->
+          <% } %>
+        </ul>
+      </nav>
+      <% } %>
+
+
+    </div>
+  </div>
+
+
+
 </div>

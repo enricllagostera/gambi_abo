@@ -1,0 +1,170 @@
+body {
+  background-color: #FFE640;
+}
+
+a:link, a:visited {
+  color: #F43421;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F43421;
+  text-decoration: underline;
+}
+
+.top-title a:link, .top-title a:hover, .top-title a:visited {
+  color: #F43421;
+}
+
+
+
+/* INDEX PAGE */
+
+.main h2 {
+  margin-top: 0em;
+  padding-top: 0.5em;
+}
+
+.featured {
+  /* border-top: 5px dashed #F43421; */
+  margin: 2em 0;
+}
+
+.featured img {
+  width: 100%;
+  border: 5px solid #F43421;
+}
+
+.featured-img {
+  width: 100%;
+  padding-left: 0em;
+  padding-top: 1em;
+}
+
+@media (min-width: 35em) {
+  .featured-img {
+    width: 256px;
+    padding-left: 1em;
+    padding-top: 0em;
+  }
+}
+
+.featured-description {
+  vertical-align: top;
+}
+
+.main .lead {
+  margin: 0;
+}
+
+
+/* FOOTER */
+
+.footer {
+  border-top: 5px solid #F43421;
+  margin: 4em 0;
+}
+
+.footer-title {
+  font-size: 1.25em;
+  text-transform: lowercase;
+}
+
+
+
+/* PAGE */
+
+.page {
+  margin: 2em 0;
+}
+
+h1.page-title a:link, h1.page-title a:hover, h1.page-title a:visited {
+  color:black;
+}
+
+.page-title {
+  /* font-family: "Bahiana", Arial, sans-serif; */
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 900;
+}
+
+.page-date {
+  font-size: 1em;
+  margin-bottom: 3em;
+}
+
+.lead {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  font-weight: 300;
+  display: inline-block;
+  margin: 1em 0;
+}
+
+.page-content img {
+  border: 10px solid #F43421;
+  max-width: 97%;
+}
+
+.page-content h2 {
+  font-weight: 900;
+  color: #F43421;
+  font-size: 2.5em;
+  border-top: 5px solid #F43421;
+  line-height: 1.5em;
+}
+
+.page-content h3 {
+  font-weight: 900;
+  color: #222;
+  font-size: 1.5em;
+  border-top: 0px solid #F43421;
+  padding: 1em 0 0em 0;
+  line-height: 1.25em;
+}
+
+
+
+/* LIST TESTS */
+
+.page-content > ol {
+	counter-reset:li; /* Initiate a counter */
+	margin-left:0; /* Remove the default left margin */
+	padding-left:0; /* Remove the default left padding */
+  margin-top:2em;
+}
+
+.page-content > ol > li {
+	position:relative; /* Create a positioning context */
+	margin:2em 0 1em 1em; /* Give each list item a left margin to make room for the numbers */
+	padding:0em 0em 0em 2em; /* Add some spacing around the content */
+	list-style:none; /* Disable the normal item numbering */
+	border-top:5px dashed #F43421;
+}
+
+.page-content > ol > li:before {
+	content:counter(li); /* Use the counter as content */
+	counter-increment:li; /* Increment the counter by 1 */
+	/* Position and style the number */
+	position:absolute;
+	top:-5px;
+	left:-1em;
+  width:2em;
+  height: 2em;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	border-top:5px solid #F43421;
+	color:#FFF8E9;
+  font-size: 1.5em;
+	background:#F43421;
+	font-weight:900;
+	text-align:center;
+  padding-top: .4em;
+  margin-right: 1em;
+}
+
+.page-content > li ol,
+.page-content > li ul {margin-top:1em;}
+.page-content > ol ol li:last-child {margin-bottom:1em;}

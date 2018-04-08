@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <!-- import document head from subdir _partial/ -->
-    <%- partial( "_partial/head" ) %>
-    <body>
-        <!-- render layout body -->
-        <%- partial( "_partial/top" ) %>
-        <%- body %>
-        <%- partial( "_partial/footer" ) %>
-    </body>
+<%- partial('_partial/head') %>
+<body>
+  <div class="container">
+    <%- partial('_partial/top') %>
+    <%- body %>
+    <%- partial('_partial/footer') %>
+  </div>
+</body>
 </html>

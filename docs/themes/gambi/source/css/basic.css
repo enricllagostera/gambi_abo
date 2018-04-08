@@ -1,0 +1,196 @@
+/* html structure
+
+body
+  container
+    top-
+      title, nav
+    main/page/post-
+      title, date, content
+    footer-
+      tagcloud, license
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,700,700i,900,900i');
+
+
+body {
+  font-size: 19px;
+  line-height: 1.5em;
+  background-color:#fff;
+  font-family: "Fira Sans", Arial, sans-serif;
+  color: #222;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 650px;
+  width: 90%;
+}
+
+a:link, a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a.tag-link:link, a.tag-link:hover, a.tag-link:visited, .footer-tagcloud a:link, .footer-tagcloud a:visited, .footer-tagcloud a:hover{
+  color: #5804dc;
+}
+
+
+
+/* TOP */
+
+.top {
+  margin-bottom: 0em;
+  margin-top: 1em;
+}
+
+.top-banner {
+  width: 80%;
+}
+
+.top-banner-area {
+  width: 180px;
+}
+
+.top-title-area {
+  vertical-align: middle;
+}
+
+.top-title {
+  color: #222;
+  display: inline-block;
+  font-size: 3em;
+  line-height: 0.1em;
+  font-weight: 900;
+}
+
+.top-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-nav ul li {
+  display: inline-block;
+  margin: 0;
+}
+
+.top-title a:link, .top-title a:visited {
+  color: #222;
+  text-decoration: none;
+}
+
+.top-title a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+form.search-form {
+  min-width:250px;
+  width:270px;
+  font-size: 0.9em;
+}
+
+.search-form-input {
+  width:180px;
+}
+
+.search-form-submit {
+  text-transform: lowercase;
+}
+
+
+
+/* MAIN */
+
+.main h2 {
+  margin-top: 2em;
+}
+
+.main ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+/* PAGE */
+
+.page {
+  margin: 2em 0;
+}
+
+h1.page-title a:link, h1.page-title a:hover, h1.page-title a:visited {
+  color:black;
+}
+
+.page-title {
+  font-size: 4em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.page-date {
+  font-style: italic;
+}
+
+.page-paginator {
+  margin-top: 2em;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  font-size: 1em !important;
+}
+
+.page-content h2 {
+  line-height: 1em;
+  padding: 0.5em 0 0em 0;
+  margin-top: 1em;
+}
+
+p.back-to-top-link {
+  margin-top: 2em;
+}
+
+/* FOOTER */
+
+.footer {
+  /* border-top: 5px solid black; */
+  margin: 3em 0;
+}
+
+.footer .col {
+  padding-right: 1em;
+}
+
+.footer-title {
+  font-size: 1em;
+}
+
+.footer-tagcloud {
+  margin: 1em 0;
+}
+
+
+
+/* MEDIA QUERIES  */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 19px;
+  }
+}
+
+/* Large devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 19px;
+  }
+}

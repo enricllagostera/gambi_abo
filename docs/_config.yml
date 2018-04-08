@@ -6,6 +6,7 @@
 title: gambi_abo
 subtitle: "DIY game controllers with no strings attached."
 description: "do-it-yourself game controllers with no strings attached. ok, maybe one or two."
+site_intro: "A series of free do-it-yourself game controllers. No gatekeeping, patents or corporations, just cardboard contraptions."
 author: Enric Llagostera
 author_url: http://enric.llagostera.com.br
 language: en
@@ -74,22 +75,25 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: basic
+theme: gambi
+custom_css: /css/gambi_abo.css
 show_banner: false
 banner_url: /imgs/read-my-hand.png
-show_nav: false
-title_color: "#d00"
-footer_text: "Made in Hexo by Enric Llagostera."
+show_search: false
+show_nav: true
 nav:
   - about:
-    title: "About me"
+    title: "About"
     path: /about/
+footer_text: "**gambi_abo** was created by [Enric Llagostera](http://enric.llagostera.com.br) in April 2018. If you have ideas for more GambiCons or would like to make a contribution, suggestion or critique, [please email me](mailto:enricllagostera@gmail.com)."
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/enricllagostera/gambi_abo.git
+  repo: git@github.com:enricllagostera/gambi_abo.git
+
+# https://github.com/enricllagostera/gambi_abo.git
 
 # RSS feed
 feed:

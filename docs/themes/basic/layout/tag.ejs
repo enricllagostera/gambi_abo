@@ -1,8 +1,0 @@
-<div class="main">
-  <h2>All '<%= page.tag %>' posts</h2>
-  <ul>
-  <% site.tags.findOne({name: page.tag }).posts.forEach(function(post) { %>
-    <li><%- partial("_partial/post_link", {title: post.title, postDate: post.date, path: post.path, tags: post.tags}) %></li>
-  <% }); %>
-  </ul>
-</div>

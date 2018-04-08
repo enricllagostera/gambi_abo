@@ -1,0 +1,1 @@
+[<%- date(postDate) %>] <a href="<%- url_for(path) %>" class="main-post-link">  <%= title %></a> / <%- list_tags(tags, {style: "none", show_count:false, transform: function(name) { return "#"+name; }}) %>

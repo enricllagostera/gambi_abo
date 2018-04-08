@@ -1,10 +1,16 @@
-<head>
-  <title><%= config.title %></title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="<%= config.description %>">
-  <meta name="author" content="<%= config.author %>">
-  <%- css("css/ungrid.min.css") %>
-  <%- css("css/style.css") %>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= config.title %>
+      <% if (page.title == undefined) { %>
+        </title>
+      <%} else {%>
+        - <%= page.title %></title>
+      <% } %>
+    <%- css(["css/modern-normalize", "css/ungrid", "css/basic.css"]) %>
+    <%- css(config.custom_css) %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <%- open_graph({ image: url_for(config.og_image_url), type: "website" }) %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>

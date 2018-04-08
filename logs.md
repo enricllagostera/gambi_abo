@@ -210,9 +210,9 @@ After a weekend with fever and sick in bed, I managed to do some more work on fi
 
 First, I found a variety of ways to joint surfaces (glue, notches, string, duct tape, plastic screws) and read some more about painting and finishing corrugated surfaces. These will be very helpful when coming up with more polished versions of controllers, but also should be considered from a perspective of ease of use and prior knowledge requirements. I prepared a reference board with some images from this research showing techniques and ideas I might use for future builds.  ~cardboard
 
-![](images/cardboard.png)
+![](cardboard-references/cardboard.png)
 
-Secondly, I also took notes on how Instructables and other websites structure their guides. They mostly use a manual-like **step-by-step** progression (which is very loosely applied in terms of consistent size / complexity of steps) with a big emphasis on photos. A major feature is the importance of **photo annotation**, with a simple tagging and hovering system built-in in the website. I also noted that the more professionalized or power-user the author, the more we see the use of Sketchup and other software for layouts and imagery. I'm considering following this system of acommunication more than the clean IKEA manual style or a LEGO like system like Nintendo chose for the Labo. I believe it's more approachable to extend and change as well as cheaper and flexible to produce.
+Secondly, I also took notes on how Instructables and other websites structure their guides. They mostly use a manual-like **step-by-step** progression (which is very loosely applied in terms of consistent size / complexity of steps) with a big emphasis on photos. A major feature is the importance of **photo annotation**, with a simple tagging and hovering system built-in in the website. I also noted that the more professionalized or power-user the author, the more we see the use of Sketchup and other software for layouts and imagery. I'm considering following this system of communication more than the clean IKEA manual style or a LEGO like system like Nintendo chose for the Labo. I believe it's more approachable to extend and change as well as cheaper and flexible to produce.
 
 #### Labo-like initiatives
 

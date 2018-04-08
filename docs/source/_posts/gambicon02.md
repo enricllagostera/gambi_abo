@@ -3,7 +3,10 @@ title: "GambiCon02"
 date: 2018-03-21 11:27:33
 tags:
   - gambicon
-  - diy-project
+  - do-it-yourself
+  - mouse
+lead: "🖰 Use a computer mouse to bring your physical prowess to  immaterial labor games."
+img_url: imgs/sieve_thumb.gif
 ---
 
 <span class="lead"> Why let your computer (plus the people & things that make it possible for you to use it) do all the work? **GambiCon02** lets you bring your physical prowess to your immaterial labor games! </span>

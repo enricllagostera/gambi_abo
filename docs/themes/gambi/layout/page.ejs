@@ -1,9 +1,7 @@
 <div class="page">
-  <div class="page-intro">
-    <h1><%= page.title %></h1>
-    <p class="page-intro-date">Updated on <%= date(page.updated)  %>.</p>
-  </div>
-  <div class="page-main">
-    <%- page.content %>
+  <h1 class="page-title"><a href="<%- url_for(page.path) %>"><%= page.title %></a></h1>
+  <p class="page-date">Updated on <%= page.updated.format("YYYY-MM-DD") %>.</p>
+  <div class="page-content">
+  <%- page.content %>
   </div>
 </div>

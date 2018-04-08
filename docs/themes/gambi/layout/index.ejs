@@ -1,11 +1,20 @@
-<section id="intro">
-  <div class="main-description">
-    <p><%= config.description %></p>
-    <p>created by <a href="<%= config.author_url %>"><%= config.author %></a>.</p>
-  </div>
-  <div class="controllers-showcase row">
-    <% site.data.controllers.forEach(function (project) { %>
-        <%- partial( "_partial/project", project ) %>
-    <% }); %>
-  </div>
-</section>
+<div class="main">
+  <span class="lead"><%- markdown(config.site_intro); %></span>
+
+  <% site.posts.data = _.orderBy(site.posts.data, "title", "asc"); %>
+  <% site.posts.forEach(function(post) { %>
+    <% if (_.first(post.tags.data, { "name": "gambicon" }) != null ) { %>
+
+      <div class="featured row">
+        <div class="col featured-description">
+          <h2><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
+          <%- markdown(post.lead); %>
+          <%- list_tags(post.tags, {style: "none", show_count:false, transform: function(name) { return "#"+name; }}) %>
+        </div>
+        <div class="col featured-img">
+          <img src="<%- url_for(post.img_url) %>" alt="">
+        </div>
+      </div>
+    <% } %>
+  <% }); %>
+</div>

@@ -1,0 +1,22 @@
+<div class="page">
+  <h1 class="page-title"><a href="<%- url_for(page.path) %>"><%= page.title %></a></h1>
+  <span class="page-date">Posted on <%= date(page.date) %>, updated on <%= date(page.updated) %>.</span>   <span class="page-tag-list"><%- list_tags(page.tags, {style: "none", show_count:false, transform: function(name) { return "#"+name; }}) %></span>
+  <div class="page-content">
+  <%- page.content %>
+  <p class="back-to-top-link"><a href="#top">⏫ Back to top</a></p>
+  </div>
+  <div class="page-paginator row">
+      <div class="col">
+        <% if (page.next != null) { %>
+        <a href="<%- url_for(page.next.path) %>"> Previous: <%= page.next.title %></a>
+        <% } %>
+      </div>
+
+      <div class="col">
+        <% if (page.prev != null) { %>
+        <a href="<%- url_for(page.prev.path) %>"> Next: <%= page.prev.title %></a>
+        <% } %>
+      </div>
+
+  </div>
+</div>
