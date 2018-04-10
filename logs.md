@@ -1,5 +1,11 @@
 # Logs
 
+## 2018-04-09
+
+### GambiCon01 re-design and documentation
+
+As I have finished preparing the structure for the project's website, I need to document GambiCon01. For that, I'm incorporating the improvements I made in the last working session.
+
 ## 2018-04-07
 
 ### Chindōgu
