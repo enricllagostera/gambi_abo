@@ -85,7 +85,10 @@ nav:
   - about:
     title: "About"
     path: /about/
-footer_text: "**gambi_abo** was created by [Enric Llagostera](http://enric.llagostera.com.br) in April 2018. If you have ideas for more GambiCons or would like to make a contribution, suggestion or critique, [please email me](mailto:enricllagostera@gmail.com)."
+  - license:
+    title: "License"
+    path: /license/
+footer_text: "**gambi_abo** was created by [Enric Llagostera](http://enric.llagostera.com.br) ([@enricllagostera](https://twitter.com/EnricLlagostera) on Twitter) in February-April 2018. If you have ideas for more GambiCons or would like to make a contribution, suggestion or critique, [please email me](mailto:enricllagostera@gmail.com).<br/><br/><a rel='license' href='http://creativecommons.org/licenses/by-sa/4.0/'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></a>"
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

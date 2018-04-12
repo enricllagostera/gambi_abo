@@ -1,11 +1,11 @@
 ---
 title: "GambiCon02"
-date: 2018-03-21 11:27:33
+date: 2018-04-08 11:27:33
 tags:
   - gambicon
   - do-it-yourself
   - mouse
-lead: "🖰 Use a computer mouse to bring your physical prowess to  immaterial labor games."
+lead: "<i class='fas fa-mouse-pointer'></i> Use a computer mouse to bring your physical prowess to  immaterial labor games."
 img_url: imgs/sieve_thumb.gif
 ---
 
