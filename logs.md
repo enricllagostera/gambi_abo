@@ -1,5 +1,31 @@
 # Logs
 
+## 2018-04-14
+
+### Licensing question
+
+As the project evolves, the matter of which license to pick was an important point. Much of this project is about the circulation and the context around altctrls and DIY culture. Figuring out a good license to stimulate openness while also not putting too many hurdles for folks to embrace and create is a key issue.
+
+My main options were CC0 and CC-BY-SA licenses, as they apply to other creations between software (which is the original context for copyleft licenses). Both licenses keep gambi_abo on the commons, but CC0 does not protect from later enclosures and proprietary restrictions. The ShareAlike clause in CC-BY-SA can be seen then as an argument for openness, even if I'll most probably not be able to enforce it in practice in case someone misues it. I wouldn't have the financial resources to enforce any restrictive license, be that copyright or copyleft. This could be an argument for CC0 license, as it puts the project in the public domain. After careful consideration, I'd say it's best to bring forward a copyleft license as a way of contributing to the discussion of the circulation of altctrls and DIY creations. It woul help make a point that creators should consider these matters in a broader context of the politics of these fields.
+
+As an addendum, I included a waiving of attribution because I think it invites others to take on this work with less barriers / investment. i don't think it's key for me or gambi_abo to have recognition for each derived project, but to spark ideas in others.
+
+The discussion of the licensing are accessible on the [license page on the projects' website](https://enricllagostera.github.io/gambi_abo/license/).
+
+### Inspirations & circulation
+
+In terms of more contextual research, I got to know about the [Adaptive Design Association, Inc](http://www.adaptivedesign.org/) and their educational materials about adaptive design and making objects with cardboard or *cardboard carpentry* as they call it. They have a very good [video series on construction techniques](https://www.youtube.com/watch?v=U6IkGLectPk&list=PLMCLxiJRz0nXehXfpCoTwNpUVkvp9Cl-p), as well as [manuals](http://docs.wixstatic.com/ugd/534455_382732bbc2d241bb8433cdead118913b.pdf) and a very informative website. I found out about them via [Gui Bueno](https://github.com/guibueno), a friend who works with design and education, who visited them during his masters at NYU. Great resource and project!
+
+I've also done more research on popular Youtube channels of cardboard mechanics. I fount that some ([example 1](https://www.youtube.com/channel/UCNZMEiM-ZMYmEk2CG3mr1_Q), [example 2](https://www.youtube.com/channel/UCZdGJgHbmqQcVZaJCkqDRwg)) have a strange formula of minimalistic visuals, vague instructions and very children-focused themes (toys, classic craft projects) plus promoting established soda and candy brands. They certainly look like algorithmic optimizations somewhat similar to the ones on [popular animation channels](https://medium.com/@jamesbridle/something-is-wrong-on-the-internet-c39c471271d2). While not that toxic as the channels in the article, the cardboard construction ones do feel uncanny in terms of permutations and the very formulaic structure of them. At the same time, they are quite popular, and I wonder how much Nintendo studied them before creating their materials (the youtuber narrator voice, minimalistic visuals, choice of themes) and how the choice of documentation aesthetic and structure is really key to the circulation of DIY projects.
+
+### GambiCon03
+
+I've also decided on the game for the GambiCon03. [Sk8Border](https://sk8border.itch.io/sk8border) is a game made for the international Antifa Game Jam that just ended. The game was made by Leif Halldór Ásgeirsson, Marc-André Toupin and Ben Wiley. In it you skate with a jet-skate and grind on the US-Mexico border wall to destroy it. It's a fun game, and I'm thinking of making an actual skateboard-like controller to act as a DDR mat for this. It would be my first attempt at making more structural and rigid cardboard extension as well as a full body extension from gamepad. It would also fit my goal of moving away from focus on hands and fingers.
+
+In terms of political argument, the controller is not complicating it or building much on top of it. However, I'm thinking about how it would help to get more players to engage with the game on an exhibition setting, getting people curious about it. It would also never be on a Nintendo platform. Finally, there's an important argument about creating moments for light-weight engagement in the middle of the usual grim and difficult environment where antifascism has to act.
+
+I plant to start prototyping and documenting the controller during this next week.
+
 ## 2018-04-09
 
 ### GambiCon01 re-design and documentation
