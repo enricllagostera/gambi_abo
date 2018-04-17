@@ -11,7 +11,7 @@ date: 2018-03-16 11:52:00
 
 <span class="lead">No gatekeeping, no commodification. Bring politics into your games*!</span>
 
-Well, politics are already there. Creating, making and experimenting with the ways we play are free practices which should not be restricted by gatekeepers. When large corporations turn such practices (such as, let's say, do-it-yourself controllers) into products, their financial and discursive power comes into action. They create and grow closed platforms, they enforce patents and copyright, and limit access to creation. Companies also try to center their own products at the expense of what was once common and shared, associating their brands with idealized and profit-optimized versions of creativity, shaping and influencing what will be created next.
+(* Well, politics are already in there). Creating, making and experimenting with the ways we play are free practices which should not be restricted by gatekeepers. When large corporations turn such practices (such as, let's say, do-it-yourself controllers) into products, their financial and discursive power comes into action. They create and grow closed platforms, they enforce patents and copyright, and limit access to creation. Companies also try to center their own products at the expense of what was once common and shared, associating their brands with idealized and profit-optimized versions of creativity, shaping and influencing what will be created next.
 
 gambi_abo is a project created against this enclosing process. It does not rely on one company or system. It fosters the free and accessible sharing of designs and tries to bring the political aspect of it to the foreground.
 
