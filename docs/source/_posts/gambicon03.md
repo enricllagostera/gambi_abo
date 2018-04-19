@@ -33,7 +33,7 @@ This is the top layer which the player will be stepping on. It needs to be as re
 
 ### Material & equipment list
 
-- Large piece of cardboard (enough for 3 rectangles with 20" by 6" inches)
+- Large piece of cardboard (enough for 3 rectangles with 20" by 6")
 - Glue
 - Box cutter or scissors
 - Drawing and painting things!
