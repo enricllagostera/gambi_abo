@@ -14,6 +14,8 @@ a:hover {
 
 .top-title a:link, .top-title a:hover, .top-title a:visited {
   color: #F43421;
+  /* font-family: "C64";
+  font-weight: 400; */
 }
 
 
@@ -23,6 +25,8 @@ a:hover {
 .main h2 {
   margin-top: 0em;
   padding-top: 0.5em;
+  /* font-family: "C64";
+  font-weight: 400; */
 }
 
 .featured {
@@ -80,6 +84,8 @@ a:hover {
 
 h1.page-title a:link, h1.page-title a:hover, h1.page-title a:visited {
   color:black;
+  /* font-family: "c64";
+  font-weight: 400; */
 }
 
 .page-title {
