@@ -1,5 +1,29 @@
 # Logs
 
+## 2018-04-25
+
+### "Launch" notes
+
+I made the decision to "launch" the project on April 19. This basically meant tweeting about it, making sure the website was up and that all 3 controller pages were working ok. I wanted to do that because it was one day before the Labo launch :P, so it might be a good moment to get into the broader conversation that would happen in social media. It didn't happen much: the posts were shared and there were some replies and retweets by altctrl enthusiasts, but not much broader engagement. That was expected, hehe.
+
+I did an interview with a journalist friend, might come out at some point soon. This might help spark some more conversations? This is probably a question of what venues and public are being reached. I'm wondering what venues would be better to send it? This is probably a work front that I'll need to put more work into going forward. For sure, a place to write about it is in the TAG's blog / website, so this is already on the list. Another place is Shake That Button for the altctrl community. I'll try some other websites that cover the intersection of games / DIY, let's see what responses I can get.
+
+### GambiCon03 design (actually happened on April 18)
+
+The basic idea of GambiCon03 was from the start to mimic the motions of skateboarding in a DDR-like fashion. The question then was to how connect the stepping motion to the gamepad, in a way that would keep the gamepad intact.
+
+1. *How not to step on the gamepad?* I had to think of ways to transfer the stepping motion to the face button press while also moving the controller away from the players' feet. This would imply some lever or hammering mechanical motion.
+
+2. *How to attach something to a face button?* I tried mechanical attachments of many kinds (dowels, cardboard) which just slipped too much. The size and shape of the buttons (rounded edges, strong springs) made it much more difficult to create a reliable connection. In ways, this difficulty was similar to the "reverse engineer a hand" problem of the GambiCon02 (when fixing the mouse upside-down). Grip ergonomics are not necessarily the best for making simplified mechanical extensions: a better mechanical fit would probably need more high-quality materials like foam or some kind of mold.
+
+To solve this questions, I tried out some hot glue and dowel solutions. This was an initial test that proved strong enough for a first design. The main issue with it is the careful tuning of the angle points for the pedals and gluing, because it shapes much of the motion that will be best for pressing the face button. This can get fiddly very quick. However, the design itself needed to be open to  customization (to fit different player's sizes and strengths), so I thought that keeping it simple and quick to make was best.
+
+Documentation was much quicker to produce: I guess I got a better workflow to do that while designing and testing. I hope this will be applicable to other future projects as well. The DIY instructions are available here: <https://enricllagostera.github.io/gambi_abo/2018-04-09-gambicon03/>.
+
+As for future directions on this controller, I think this is a project that would be much easier and reliable with custom electronics such as a MakeyMakey board. Maybe it would be interesting to make a more solid version using such a solution at some point? This would be more for the pedals - dowels connection, not so much for the skateboard deck part. The skateboard deck should be more customizable, so it's food that it is relatively simple to just remake and detach from the more complex dowel connection.
+
+Another direction for design is to try out a more seesaw-like solution for alternately pressing the buttons. This could be simpler and allow for a larger range of motion, while making the game actually easier to play. The main issue would be the structural integrity of it, as it might put the gamepad back close to the players.
+
 ## 2018-04-14
 
 ### Licensing question
